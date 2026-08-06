@@ -25,8 +25,8 @@ Antigravity는 이 프로젝트를 구현 및 디버깅할 때 반드시 다음 
 
 ### 2-2. 기술 스택 및 개발 제한 조건
 - **백엔드**: Python 3.11+ 환경에서 `FastAPI`와 `LangChain`을 사용하여 설계합니다.
-  - 패키지 의존성은 [backend/requirements.txt](file:///C:/rookies6/vibe_antigravity/biztalk_antigravity/backend/requirements.txt)에 명시하고 관리합니다.
-  - 로컬 테스트 및 실행 시 루트에 생성된 파이썬 가상환경 `.venv`를 활성화한 상태로 수행합니다.
+  - 패키지 의존성은 [backend/requirements.txt](file:///C:/rookies6/vibe_antigravity/biztalk_antigravity/backend/requirements.txt)에 명시하고 관리하며, 패키지 관리자로 `uv` (uv 0.12.2)를 사용합니다.
+  - 로컬 테스트 및 실행 시 루트에 생성된 파이썬 가상환경 `.venv`를 활성화한 상태로 수행하거나 `uv run`을 사용합니다.
 - **AI 모델**: Upstage `solar-pro3` 모델을 `langchain-upstage` 패키지를 통해 연동합니다.
 - **프론트엔드**: 외부 프레임워크(React, Vue, Tailwind 등) 없이 순수 **Vanilla HTML, CSS, JavaScript**만을 사용하여 구현합니다.
 - **보안 및 자격증명**:
