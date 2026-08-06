@@ -294,7 +294,7 @@ FastAPI는 Swagger UI를 기본 제공하므로 서버가 기동 중인 상태�
 
 ## 8. 단계별 구현 순서
 
-### [ ] STEP 1. 환경 준비
+### [x] STEP 1. 환경 준비
 
 1. GitHub 레포지토리 생성 (`biztalk_antigravity`)
 2. 디렉토리 구조 생성
